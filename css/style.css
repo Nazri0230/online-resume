@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0.3;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+}
+
+body {
+  background: rgb(172, 166, 166);
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.semi-bold {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.Nazresume {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.Nazresume .Nazresume_right {
+    width: 520px;
+    background: rgb(243, 239, 239);
+    padding: 25px;
+  }
+  
+  .Nazresume .Nazresume_right .bold {
+    color: black;
+  }
+  
+ 
+  .Nazresume .Nazresume_right ul li .date {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .Nazresume .Nazresume_right ul li .info {
+    margin-bottom: 20px;
+  }
+  
+  .Nazresume .Nazresume_right ul li:last-child .info {
+    margin-bottom: 0;
+  }
+  .Nazresume .Nazresume_left {
+    width: 280px;
+    background: rgb(158, 135, 158);  
+  }
+  
+  .Nazresume .Nazresume_left .Nazresume_profile {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .Nazresume .Nazresume_left .Nazresume_profile img {
+    width: 99%;
+    height: 100%;
+  }
+  
+  .Nazresume .Nazresume_left .Nazresume_content {
+    padding: 1em;
+  }
+  
+  .Nazresume .title {
+    margin-bottom: 20px;
+  }
+  
+  .Nazresume .Nazresume_left .bold {
+    color:white;
+  }
+  .Nazresume .Nazresume_left .semi-bold {
+      color:white;
+      padding: 1em;
+  }
+  
+  .Nazresume .Nazresume_item {
+    padding: 25px 0;
+    border-bottom: 3px solid rgb(59, 30, 59);
+  }
+  .Nazresume .Nazresume_left .Nazresume_item:last-child,
+  .Nazresume .Nazresume_right .Nazresume_item:last-child {
+    border-bottom: 0px;
+  }
+  
+  .Nazresume .Nazresume_left ul li {
+    display: flex;
+    margin-bottom: 14px;
+    align-items: center;
+  
+  }
+
+  /* contact icon white circle */
+  .Nazresume .Nazresume_left ul li .icon {
+    width: 35px;
+    height: 35px;
+    background: white;
+    color: rgba(85, 8, 72, 0.993);
+    border-radius: 25px;
+    margin-right: 10px;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .Nazresume .icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
